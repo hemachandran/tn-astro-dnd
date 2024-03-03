@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tamil-normal {
+  font-family: "Tiro Tamil", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tamil-italic {
+  font-family: "Tiro Tamil", serif;
+  font-weight: 400;
+  font-style: italic;
+}
