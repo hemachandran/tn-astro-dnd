@@ -20,7 +20,7 @@ function AstroBox() {
   const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
     const id = event.dataTransfer.getData("text");
     const domId = event.currentTarget.id;
-    console.log(`Somebody dropped an element with id: ${id}`);
+    console.log(`You've dropped an element with id: ${id}`);
     switch (domId) {
       case "Box1":
         setBox1Planets([...box1Planets, `${id}`]);
@@ -36,9 +36,6 @@ function AstroBox() {
         break;
       case "Box5":
         setBox5Planets([...box5Planets, `${id}`]);
-        break;
-      case "Box6":
-        setBox6Planets([...box6Planets, `${id}`]);
         break;
       case "Box6":
         setBox6Planets([...box6Planets, `${id}`]);
