@@ -1,0 +1,15 @@
+{
+  "display": "fullscreen",
+  "shortcuts": [
+    {
+      "name": "ஜாதகம் கட்டம்",
+      "description": "Astrology box using drang and drop",
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "/assets/logo-B-LsRTH9.png"
+        }
+      ]
+    }
+  ]
+}
